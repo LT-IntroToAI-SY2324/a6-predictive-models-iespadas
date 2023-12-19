@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
 #imports the data
-data = pd.read_csv("part5-unsupervised-learning/old_faithful_data.csv")
+data = pd.read_csv("a6-predictive-models-iespadas/part5-unsupervised-learning/old_faithful_data.csv")
 data = data[["eruptions", "waiting"]]
 
 #standardizes the data
